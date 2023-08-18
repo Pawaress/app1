@@ -1,11 +1,22 @@
 import React from 'react'
 import './style.css'
-import { Header,Content,Footer } from './func-components';
-import Calendar from './class-component';
-import Banner from './banner';
-import { Calculator2 } from './calculator';
+//import { Header,Content,Footer } from './func-components';
+//import Calendar from './class-component';
+//import Banner from './banner';
+//import { Calculator2 } from './calculator';
+import { EvenData2 } from './event-data';
 function App() {
+    
 
+
+    
+    return <EvenData2/>
+    
+
+    }
+
+
+    export default App;
     /*return ([<Header/>,<Content/>,<Footer/>] );*/
    /* return (
     <>
@@ -14,15 +25,5 @@ function App() {
      <Content/> 
      <Footer/>
      </> 
-    
-    
-    
     );*/
-
-    //return <Banner/>
-    return (<><p><center><Calendar/></center></p><Banner/><Calculator2/></>)
-
-    }
-
-
-    export default App;
+    /*return (<><p><center><Calendar/></center></p><Banner/><Calculator2/></>)*/
