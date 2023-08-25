@@ -7,12 +7,13 @@ import './style.css'
 import { EvenData2 } from './event-data';
 import RefsFunc from './ref-func'
 import RefsArray from './refs-array';
+import MassageBox from './state-func';
 function App() {
     
 
 
     
-    return <RefsArray/>
+    return <MassageBox/>
     
 
     }
