@@ -6,12 +6,13 @@ import './style.css'
 //import { Calculator2 } from './calculator';
 import { EvenData2 } from './event-data';
 import RefsFunc from './ref-func'
+import RefsArray from './refs-array';
 function App() {
     
 
 
     
-    return <RefsFunc/>
+    return <RefsArray/>
     
 
     }
