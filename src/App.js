@@ -5,12 +5,13 @@ import './style.css'
 //import Banner from './banner';
 //import { Calculator2 } from './calculator';
 import { EvenData2 } from './event-data';
+import RefsFunc from './ref-func'
 function App() {
     
 
 
     
-    return <EvenData2/>
+    return <RefsFunc/>
     
 
     }
