@@ -1,32 +1,23 @@
 import React from 'react'
-import './style.css'
-//import { Header,Content,Footer } from './func-components';
-//import Calendar from './class-component';
-//import Banner from './banner';
-//import { Calculator2 } from './calculator';
-import { EvenData2 } from './event-data';
-import RefsFunc from './ref-func'
-import RefsArray from './refs-array';
-import MassageBox from './state-func';
-function App() {
+import {userContext} from './context'
+import Header from './context-header'
+import Content from './context-content'
+import Header2 from './context-header2'
+import Content2 from './context-content2'
+export default function App() {
+      let[user,setUser]=React.useState('')
+    return (
+         
+        <userContext.Provider value={[user,setUser]}>
+        <Header2/>
+        <Content2/>
+       
+    </userContext.Provider>
+    )
     
-
-
-    
-    return <MassageBox/>
-    
-
     }
 
 
-    export default App;
-    /*return ([<Header/>,<Content/>,<Footer/>] );*/
-   /* return (
-    <>
-    <Header/>
-    <p><center><Calendar/></center></p>
-     <Content/> 
-     <Footer/>
-     </> 
-    );*/
-    /*return (<><p><center><Calendar/></center></p><Banner/><Calculator2/></>)*/
+   
+   
+    

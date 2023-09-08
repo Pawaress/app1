@@ -9,6 +9,7 @@ export default class Calendar extends Component{
         const day = date.getDate()
         const month = monthName[date.getMonth()]
         const year = date.getFullYear()+543
+    
         return `วัน ${weekDay} ที่ ${day} ${month} ${year}`
     }
     render(){
